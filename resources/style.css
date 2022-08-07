@@ -1,0 +1,28 @@
+html{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-container{
+    border: 3px solid black;
+    width: fit-content;
+}
+#calc-text-area{
+    margin: 5px;
+}
+
+.operation-holder{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    height: 20rem;
+    width: 20rem;
+}
+
+#clear-button{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
